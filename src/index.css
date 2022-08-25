@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,20 +6,31 @@
   padding: 0;
 }
 
+:root {
+  --body-background-color: #08040f;
+  --body-color: #fff;
+  --a-color: #4e066d;
+  --accent-color: orange;
+  --circles-fill: rgba(102, 44, 145, 0.0618);
+  --heading-bg: #08040f;
+  --heading-shadow: 0px 0px 8px #4e066d;
+  --coinbar-bg: #190024c7;
+  --coinbar-shadow: 0px 0px 18px #4e066d;
+}
+
 body {
   margin: 0;
-  font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Rubik", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #26272b;
-  color: #f4f4f4;
+  background-color: var(--body-background-color);
+  color: var(--body-color);
 }
 
 a {
-  color: #f4f4f4;
+  color: var(--a-color);
   text-decoration: none;
 }
 
@@ -29,6 +40,17 @@ h1 {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+svg#d3SVG {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -10;
+  /* width: 100vw; */
+  height: 100vh;
 }

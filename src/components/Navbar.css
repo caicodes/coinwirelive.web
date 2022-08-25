@@ -1,17 +1,17 @@
 .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon {
-    font-size: 2rem;
-    color: #6900ff;
+  font-size: 2rem;
+  color: var(--a-color);
 }
 
 .purple {
-    color: #6900ff;
+  color: var(--a-color);
 }
 .gold {
-    color: gold;
+  color: var(--accent-color);
 }
