@@ -1,4 +1,24 @@
-# coinwire.web from create react app starter
+# coinwirelive.web from create react app starter
+
+Coingecko API with CRA, D3 and Vanilla CSS/vars... 
+
+[Live Firebase Hosting Site](https://coinwirelive.web.app)
+
+[Firebase Project Console](https://console.firebase.google.com/project/coinwirelive/overview)
+
+<img src='./project/current-site.png' alt='coinwirelive' height=360/> <img src='./project/detail-view.png' alt='coinwirelive' height=360 />
+
+
+-   d3 for circles and animated bar charts
+-   d3 for line graph spark/trending *(coming soon)*
+-   vanilla css with css-vars
+-   react app
+-   firebase Hosting
+-   custom logo *(coming soon)*
+-   deployed last 8-25-2022
+
+
+### CRA Start...
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
