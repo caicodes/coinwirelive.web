@@ -8,7 +8,7 @@
 
 :root {
   --body-background-color: #08040f;
-  --body-color: #fff;
+  --body-color: #ffffff;
   --a-color: #4e066d;
   --accent-color: orange;
   --circles-fill: rgba(102, 44, 145, 0.0618);
@@ -29,6 +29,9 @@ body {
   color: var(--body-color);
 }
 
+.coin-row {
+  color: var(--body-color);
+}
 a {
   color: var(--a-color);
   text-decoration: none;
